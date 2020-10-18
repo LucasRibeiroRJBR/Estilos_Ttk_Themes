@@ -5,6 +5,7 @@ from ttkthemes import ThemedStyle
 
 def alt():
     root_alt = Tk()
+    root_alt.title('alt')
 
     style_alt = ThemedStyle(root_alt)
     style_alt.set_theme('alt')
@@ -39,6 +40,7 @@ def alt():
 
 def aquativo():
     root_aquativo = Tk()
+    root_aquativo.title('aquativo')
 
     style_aquativo = ThemedStyle(root_aquativo)
     style_aquativo.set_theme('aquativo')
@@ -73,6 +75,7 @@ def aquativo():
 
 def arc():
     root_arc = Tk()
+    root_arc.title('arc')
 
     style_arc = ThemedStyle(root_arc)
     style_arc.set_theme('arc')
@@ -107,6 +110,7 @@ def arc():
 
 def black():
     root_black = Tk()
+    root_black.title('black')
 
     style_black = ThemedStyle(root_black)
     style_black.set_theme('black')
@@ -141,6 +145,7 @@ def black():
 
 def blue():
     root_blue = Tk()
+    root_blue.title('blue')
 
     style_blue = ThemedStyle(root_blue)
     style_blue.set_theme('blue')
@@ -175,6 +180,7 @@ def blue():
 
 def breeze():
     root_breeze = Tk()
+    root_breeze.title('breeze')
 
     style_breeze = ThemedStyle(root_breeze)
     style_breeze.set_theme('breeze')
@@ -209,6 +215,7 @@ def breeze():
 
 def clam():
     root_clam = Tk()
+    root_clam.title('clam')
 
     style_clam = ThemedStyle(root_clam)
     style_clam.set_theme('clam')
@@ -243,6 +250,7 @@ def clam():
 
 def classic():
     root_classic = Tk()
+    root_classic.title('classic')
 
     style_classic = ThemedStyle(root_classic)
     style_classic.set_theme('classic')
@@ -277,6 +285,7 @@ def classic():
 
 def clearlooks():
     root_clearlooks = Tk()
+    root_clearlooks.title('clearlooks')
 
     style_clearlooks = ThemedStyle(root_clearlooks)
     style_clearlooks.set_theme('clearlooks')
@@ -311,6 +320,7 @@ def clearlooks():
 
 def default():
     root_default = Tk()
+    root_default.title('default')
 
     style_default = ThemedStyle(root_default)
     style_default.set_theme('default')
@@ -345,6 +355,7 @@ def default():
 
 def elegance():
     root_elegance = Tk()
+    root_elegance.title('elegance')
 
     style_elegance = ThemedStyle(root_elegance)
     style_elegance.set_theme('elegance')
@@ -379,6 +390,7 @@ def elegance():
 
 def equilux():
     root_equilux = Tk()
+    root_equilux.title('equilux')
 
     style_equilux = ThemedStyle(root_equilux)
     style_equilux.set_theme('equilux')
@@ -413,6 +425,7 @@ def equilux():
 
 def itft1():
     root_itft1 = Tk()
+    root_itft1.title('itft1')
 
     style_itft1 = ThemedStyle(root_itft1)
     style_itft1.set_theme('itft1')
@@ -447,6 +460,7 @@ def itft1():
 
 def keramik():
     root_keramik = Tk()
+    root_keramik.title('keramik')
 
     style_keramik = ThemedStyle(root_keramik)
     style_keramik.set_theme('keramik')
@@ -481,6 +495,7 @@ def keramik():
 
 def kroc():
     root_kroc = Tk()
+    root_kroc.title('kroc')
 
     style_kroc = ThemedStyle(root_kroc)
     style_kroc.set_theme('kroc')
@@ -515,6 +530,7 @@ def kroc():
 
 def plastik():
     root_plastik = Tk()
+    root_plastik.title('plastik')
 
     style_plastik = ThemedStyle(root_plastik)
     style_plastik.set_theme('plastik')
@@ -549,6 +565,7 @@ def plastik():
 
 def radiance():
     root_radiance = Tk()
+    root_radiance.title('radiance')
 
     style_radiance = ThemedStyle(root_radiance)
     style_radiance.set_theme('radiance')
@@ -583,6 +600,7 @@ def radiance():
 
 def scidblue():
     root_scidblue = Tk()
+    root_scidblue.title('scidblue')
 
     style_scidblue = ThemedStyle(root_scidblue)
     style_scidblue.set_theme('scidblue')
@@ -617,6 +635,7 @@ def scidblue():
 
 def scidgreen():
     root_scidgreen = Tk()
+    root_scidgreen.title('scidgreen')
 
     style_scidgreen = ThemedStyle(root_scidgreen)
     style_scidgreen.set_theme('scidgreen')
@@ -651,6 +670,7 @@ def scidgreen():
 
 def scidgrey():
     root_scidgrey = Tk()
+    root_scidgrey.title('scidgrey')
 
     style_scidgrey = ThemedStyle(root_scidgrey)
     style_scidgrey.set_theme('scidgrey')
@@ -685,6 +705,7 @@ def scidgrey():
 
 def scidmint():
     root_scidmint = Tk()
+    root_scidmint.title('scidmint')
 
     style_scidmint = ThemedStyle(root_scidmint)
     style_scidmint.set_theme('scidmint')
@@ -719,6 +740,7 @@ def scidmint():
 
 def scidpink():
     root_scidpink = Tk()
+    root_scidpink.title('scidpink')
 
     style_scidpink = ThemedStyle(root_scidpink)
     style_scidpink.set_theme('scidpink')
@@ -753,6 +775,7 @@ def scidpink():
 
 def scidpurple():
     root_scidpurple = Tk()
+    root_scidpurple.title('scidpurple')
 
     style_scidpurple = ThemedStyle(root_scidpurple)
     style_scidpurple.set_theme('scidpurple')
@@ -787,6 +810,7 @@ def scidpurple():
 
 def scidsand():
     root_scidsand = Tk()
+    root_scidsand.title('scidsand')
 
     style_scidsand = ThemedStyle(root_scidsand)
     style_scidsand.set_theme('scidsand')
@@ -821,6 +845,7 @@ def scidsand():
 
 def smog():
     root_smog = Tk()
+    root_smog.title('smog')
 
     style_smog = ThemedStyle(root_smog)
     style_smog.set_theme('smog')
@@ -855,6 +880,7 @@ def smog():
 
 def ubuntu():
     root_ubuntu = Tk()
+    root_ubuntu.title('ubuntu')
 
     style_ubuntu = ThemedStyle(root_ubuntu)
     style_ubuntu.set_theme('ubuntu')
@@ -889,6 +915,7 @@ def ubuntu():
 
 def vista():
     root_vista = Tk()
+    root_vista.title('vista')
 
     style_vista = ThemedStyle(root_vista)
     style_vista.set_theme('vista')
@@ -923,6 +950,7 @@ def vista():
 
 def winnative():
     root_winnative = Tk()
+    root_winnative.title('winnative')
 
     style_winnative = ThemedStyle(root_winnative)
     style_winnative.set_theme('winnative')
@@ -957,6 +985,7 @@ def winnative():
 
 def winxpblue():
     root_winxpblue = Tk()
+    root_winxpblue.title('winxpblue')
 
     style_winxpblue = ThemedStyle(root_winxpblue)
     style_winxpblue.set_theme('winxpblue')
@@ -991,6 +1020,7 @@ def winxpblue():
 
 def xpnative():
     root_xpnative = Tk()
+    root_xpnative.title('xpnative')
 
     style_xpnative = ThemedStyle(root_xpnative)
     style_xpnative.set_theme('xpnative')
@@ -1025,6 +1055,7 @@ def xpnative():
 
 def yaru():
     root_yaru = Tk()
+    root_yaru.title('yaru')
 
     style_yaru = ThemedStyle(root_yaru)
     style_yaru.set_theme('yaru')
