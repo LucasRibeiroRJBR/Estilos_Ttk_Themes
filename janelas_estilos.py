@@ -10,7 +10,7 @@ def alt():
     style_alt = ThemedStyle(root_alt)
     style_alt.set_theme('alt')
 
-    botao = ttk.Button(root_alt, text='Botão')
+    botao = ttk.Button(root_alt, text='alt')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_alt, text='Check Button')
@@ -45,7 +45,7 @@ def aquativo():
     style_aquativo = ThemedStyle(root_aquativo)
     style_aquativo.set_theme('aquativo')
 
-    botao = ttk.Button(root_aquativo, text='Botão')
+    botao = ttk.Button(root_aquativo, text='aquativo')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_aquativo, text='Check Button')
@@ -80,7 +80,7 @@ def arc():
     style_arc = ThemedStyle(root_arc)
     style_arc.set_theme('arc')
 
-    botao = ttk.Button(root_arc, text='Botão')
+    botao = ttk.Button(root_arc, text='arc')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_arc, text='Check Button')
@@ -115,7 +115,7 @@ def black():
     style_black = ThemedStyle(root_black)
     style_black.set_theme('black')
 
-    botao = ttk.Button(root_black, text='Botão')
+    botao = ttk.Button(root_black, text='black')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_black, text='Check Button')
@@ -150,7 +150,7 @@ def blue():
     style_blue = ThemedStyle(root_blue)
     style_blue.set_theme('blue')
 
-    botao = ttk.Button(root_blue, text='Botão')
+    botao = ttk.Button(root_blue, text='blue')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_blue, text='Check Button')
@@ -185,7 +185,7 @@ def breeze():
     style_breeze = ThemedStyle(root_breeze)
     style_breeze.set_theme('breeze')
 
-    botao = ttk.Button(root_breeze, text='Botão')
+    botao = ttk.Button(root_breeze, text='breeze')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_breeze, text='Check Button')
@@ -220,7 +220,7 @@ def clam():
     style_clam = ThemedStyle(root_clam)
     style_clam.set_theme('clam')
 
-    botao = ttk.Button(root_clam, text='Botão')
+    botao = ttk.Button(root_clam, text='clam')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_clam, text='Check Button')
@@ -255,7 +255,7 @@ def classic():
     style_classic = ThemedStyle(root_classic)
     style_classic.set_theme('classic')
 
-    botao = ttk.Button(root_classic, text='Botão')
+    botao = ttk.Button(root_classic, text='classic')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_classic, text='Check Button')
@@ -290,7 +290,7 @@ def clearlooks():
     style_clearlooks = ThemedStyle(root_clearlooks)
     style_clearlooks.set_theme('clearlooks')
 
-    botao = ttk.Button(root_clearlooks, text='Botão')
+    botao = ttk.Button(root_clearlooks, text='clearlooks')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_clearlooks, text='Check Button')
@@ -325,7 +325,7 @@ def default():
     style_default = ThemedStyle(root_default)
     style_default.set_theme('default')
 
-    botao = ttk.Button(root_default, text='Botão')
+    botao = ttk.Button(root_default, text='default')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_default, text='Check Button')
@@ -360,7 +360,7 @@ def elegance():
     style_elegance = ThemedStyle(root_elegance)
     style_elegance.set_theme('elegance')
 
-    botao = ttk.Button(root_elegance, text='Botão')
+    botao = ttk.Button(root_elegance, text='elegance')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_elegance, text='Check Button')
@@ -395,7 +395,7 @@ def equilux():
     style_equilux = ThemedStyle(root_equilux)
     style_equilux.set_theme('equilux')
 
-    botao = ttk.Button(root_equilux, text='Botão')
+    botao = ttk.Button(root_equilux, text='equilux')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_equilux, text='Check Button')
@@ -430,7 +430,7 @@ def itft1():
     style_itft1 = ThemedStyle(root_itft1)
     style_itft1.set_theme('itft1')
 
-    botao = ttk.Button(root_itft1, text='Botão')
+    botao = ttk.Button(root_itft1, text='itft1')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_itft1, text='Check Button')
@@ -465,7 +465,7 @@ def keramik():
     style_keramik = ThemedStyle(root_keramik)
     style_keramik.set_theme('keramik')
 
-    botao = ttk.Button(root_keramik, text='Botão')
+    botao = ttk.Button(root_keramik, text='keramik')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_keramik, text='Check Button')
@@ -500,7 +500,7 @@ def kroc():
     style_kroc = ThemedStyle(root_kroc)
     style_kroc.set_theme('kroc')
 
-    botao = ttk.Button(root_kroc, text='Botão')
+    botao = ttk.Button(root_kroc, text='kroc')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_kroc, text='Check Button')
@@ -535,7 +535,7 @@ def plastik():
     style_plastik = ThemedStyle(root_plastik)
     style_plastik.set_theme('plastik')
 
-    botao = ttk.Button(root_plastik, text='Botão')
+    botao = ttk.Button(root_plastik, text='plastik')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_plastik, text='Check Button')
@@ -570,7 +570,7 @@ def radiance():
     style_radiance = ThemedStyle(root_radiance)
     style_radiance.set_theme('radiance')
 
-    botao = ttk.Button(root_radiance, text='Botão')
+    botao = ttk.Button(root_radiance, text='radiance')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_radiance, text='Check Button')
@@ -605,7 +605,7 @@ def scidblue():
     style_scidblue = ThemedStyle(root_scidblue)
     style_scidblue.set_theme('scidblue')
 
-    botao = ttk.Button(root_scidblue, text='Botão')
+    botao = ttk.Button(root_scidblue, text='scidblue')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_scidblue, text='Check Button')
@@ -640,7 +640,7 @@ def scidgreen():
     style_scidgreen = ThemedStyle(root_scidgreen)
     style_scidgreen.set_theme('scidgreen')
 
-    botao = ttk.Button(root_scidgreen, text='Botão')
+    botao = ttk.Button(root_scidgreen, text='scidgreen')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_scidgreen, text='Check Button')
@@ -675,7 +675,7 @@ def scidgrey():
     style_scidgrey = ThemedStyle(root_scidgrey)
     style_scidgrey.set_theme('scidgrey')
 
-    botao = ttk.Button(root_scidgrey, text='Botão')
+    botao = ttk.Button(root_scidgrey, text='scidgrey')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_scidgrey, text='Check Button')
@@ -710,7 +710,7 @@ def scidmint():
     style_scidmint = ThemedStyle(root_scidmint)
     style_scidmint.set_theme('scidmint')
 
-    botao = ttk.Button(root_scidmint, text='Botão')
+    botao = ttk.Button(root_scidmint, text='scirmint')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_scidmint, text='Check Button')
@@ -745,7 +745,7 @@ def scidpink():
     style_scidpink = ThemedStyle(root_scidpink)
     style_scidpink.set_theme('scidpink')
 
-    botao = ttk.Button(root_scidpink, text='Botão')
+    botao = ttk.Button(root_scidpink, text='scidpink')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_scidpink, text='Check Button')
@@ -780,7 +780,7 @@ def scidpurple():
     style_scidpurple = ThemedStyle(root_scidpurple)
     style_scidpurple.set_theme('scidpurple')
 
-    botao = ttk.Button(root_scidpurple, text='Botão')
+    botao = ttk.Button(root_scidpurple, text='scidpurple')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_scidpurple, text='Check Button')
@@ -815,7 +815,7 @@ def scidsand():
     style_scidsand = ThemedStyle(root_scidsand)
     style_scidsand.set_theme('scidsand')
 
-    botao = ttk.Button(root_scidsand, text='Botão')
+    botao = ttk.Button(root_scidsand, text='scidsand')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_scidsand, text='Check Button')
@@ -850,7 +850,7 @@ def smog():
     style_smog = ThemedStyle(root_smog)
     style_smog.set_theme('smog')
 
-    botao = ttk.Button(root_smog, text='Botão')
+    botao = ttk.Button(root_smog, text='smog')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_smog, text='Check Button')
@@ -885,7 +885,7 @@ def ubuntu():
     style_ubuntu = ThemedStyle(root_ubuntu)
     style_ubuntu.set_theme('ubuntu')
 
-    botao = ttk.Button(root_ubuntu, text='Botão')
+    botao = ttk.Button(root_ubuntu, text='ubuntu')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_ubuntu, text='Check Button')
@@ -920,7 +920,7 @@ def vista():
     style_vista = ThemedStyle(root_vista)
     style_vista.set_theme('vista')
 
-    botao = ttk.Button(root_vista, text='Botão')
+    botao = ttk.Button(root_vista, text='vista')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_vista, text='Check Button')
@@ -955,7 +955,7 @@ def winnative():
     style_winnative = ThemedStyle(root_winnative)
     style_winnative.set_theme('winnative')
 
-    botao = ttk.Button(root_winnative, text='Botão')
+    botao = ttk.Button(root_winnative, text='winnative')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_winnative, text='Check Button')
@@ -990,7 +990,7 @@ def winxpblue():
     style_winxpblue = ThemedStyle(root_winxpblue)
     style_winxpblue.set_theme('winxpblue')
 
-    botao = ttk.Button(root_winxpblue, text='Botão')
+    botao = ttk.Button(root_winxpblue, text='winxpblue')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_winxpblue, text='Check Button')
@@ -1025,7 +1025,7 @@ def xpnative():
     style_xpnative = ThemedStyle(root_xpnative)
     style_xpnative.set_theme('xpnative')
 
-    botao = ttk.Button(root_xpnative, text='Botão')
+    botao = ttk.Button(root_xpnative, text='xpnative')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_xpnative, text='Check Button')
@@ -1060,7 +1060,7 @@ def yaru():
     style_yaru = ThemedStyle(root_yaru)
     style_yaru.set_theme('yaru')
 
-    botao = ttk.Button(root_yaru, text='Botão')
+    botao = ttk.Button(root_yaru, text='yaru')
     botao.grid(row=0, column=0, padx=10, pady=10)
 
     check_button = ttk.Checkbutton(root_yaru, text='Check Button')
