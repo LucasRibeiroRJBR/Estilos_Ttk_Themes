@@ -1089,7 +1089,7 @@ def yaru():
 
 
 root = Tk()
-root.title('Validador de CPF')
+root.title('Estilos ttktheme')
 
 style = ThemedStyle(root)
 style.set_theme('equilux')
