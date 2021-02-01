@@ -2,6 +2,41 @@ from tkinter import *
 import tkinter.ttk as ttk
 from ttkthemes import ThemedStyle
 
+def adapta():
+    root_adapta = Tk()
+    root_adapta.title('adapta')
+
+    style_adapta = ThemedStyle(root_adapta)
+    style_adapta.set_theme('adapta')
+
+    botao = ttk.Button(root_adapta, text='adapta')
+    botao.grid(row=0, column=0, padx=10, pady=10)
+
+    check_button = ttk.Checkbutton(root_adapta, text='Check Button')
+    check_button.grid(row=1, column=0, padx=10, pady=10)
+
+    combo_box = ttk.Combobox(root_adapta, state='readonly')
+    combo_box['values'] = [1, 2, 3, 4, 5]
+    combo_box.set("Combo Box")
+    combo_box.grid(row=2, column=0, padx=10, pady=10)
+
+    entry = ttk.Entry(root_adapta)
+    entry.grid(row=3, column=0, padx=10, pady=10)
+
+    frame = ttk.LabelFrame(root_adapta, text='Frame')
+    frame.grid(row=4, column=0, padx=10, pady=10)
+    label_para_frame = Label(frame, text='                                  ')
+    label_para_frame.grid(row=0, column=0)
+
+    label = Label(root_adapta, text='Label')
+    label.grid(row=5, column=0, padx=10, pady=10)
+
+    labeledscale = ttk.LabeledScale(root_adapta, from_=9, to=90)
+    labeledscale.grid(row=6, column=0, padx=10, pady=10)
+
+    root_adapta.mainloop()
+
+
 
 def alt():
     root_alt = Tk()
@@ -16,7 +51,7 @@ def alt():
     check_button = ttk.Checkbutton(root_alt, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_alt)
+    combo_box = ttk.Combobox(root_alt, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -51,7 +86,7 @@ def aquativo():
     check_button = ttk.Checkbutton(root_aquativo, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_aquativo)
+    combo_box = ttk.Combobox(root_aquativo, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -86,7 +121,7 @@ def arc():
     check_button = ttk.Checkbutton(root_arc, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_arc)
+    combo_box = ttk.Combobox(root_arc, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -121,7 +156,7 @@ def black():
     check_button = ttk.Checkbutton(root_black, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_black)
+    combo_box = ttk.Combobox(root_black, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -156,7 +191,7 @@ def blue():
     check_button = ttk.Checkbutton(root_blue, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_blue)
+    combo_box = ttk.Combobox(root_blue, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -191,7 +226,7 @@ def breeze():
     check_button = ttk.Checkbutton(root_breeze, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_breeze)
+    combo_box = ttk.Combobox(root_breeze, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -226,7 +261,7 @@ def clam():
     check_button = ttk.Checkbutton(root_clam, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_clam)
+    combo_box = ttk.Combobox(root_clam, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -261,7 +296,7 @@ def classic():
     check_button = ttk.Checkbutton(root_classic, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_classic)
+    combo_box = ttk.Combobox(root_classic, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -296,7 +331,7 @@ def clearlooks():
     check_button = ttk.Checkbutton(root_clearlooks, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_clearlooks)
+    combo_box = ttk.Combobox(root_clearlooks, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -331,7 +366,7 @@ def default():
     check_button = ttk.Checkbutton(root_default, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_default)
+    combo_box = ttk.Combobox(root_default, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -366,7 +401,7 @@ def elegance():
     check_button = ttk.Checkbutton(root_elegance, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_elegance)
+    combo_box = ttk.Combobox(root_elegance, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -401,7 +436,7 @@ def equilux():
     check_button = ttk.Checkbutton(root_equilux, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_equilux)
+    combo_box = ttk.Combobox(root_equilux, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -436,7 +471,7 @@ def itft1():
     check_button = ttk.Checkbutton(root_itft1, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_itft1)
+    combo_box = ttk.Combobox(root_itft1, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -471,7 +506,7 @@ def keramik():
     check_button = ttk.Checkbutton(root_keramik, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_keramik)
+    combo_box = ttk.Combobox(root_keramik, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -506,7 +541,7 @@ def kroc():
     check_button = ttk.Checkbutton(root_kroc, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_kroc)
+    combo_box = ttk.Combobox(root_kroc, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -541,7 +576,7 @@ def plastik():
     check_button = ttk.Checkbutton(root_plastik, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_plastik)
+    combo_box = ttk.Combobox(root_plastik, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -576,7 +611,7 @@ def radiance():
     check_button = ttk.Checkbutton(root_radiance, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_radiance)
+    combo_box = ttk.Combobox(root_radiance, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -611,7 +646,7 @@ def scidblue():
     check_button = ttk.Checkbutton(root_scidblue, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_scidblue)
+    combo_box = ttk.Combobox(root_scidblue, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -646,7 +681,7 @@ def scidgreen():
     check_button = ttk.Checkbutton(root_scidgreen, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_scidgreen)
+    combo_box = ttk.Combobox(root_scidgreen, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -681,7 +716,7 @@ def scidgrey():
     check_button = ttk.Checkbutton(root_scidgrey, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_scidgrey)
+    combo_box = ttk.Combobox(root_scidgrey, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -716,7 +751,7 @@ def scidmint():
     check_button = ttk.Checkbutton(root_scidmint, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_scidmint)
+    combo_box = ttk.Combobox(root_scidmint, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -751,7 +786,7 @@ def scidpink():
     check_button = ttk.Checkbutton(root_scidpink, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_scidpink)
+    combo_box = ttk.Combobox(root_scidpink, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -786,7 +821,7 @@ def scidpurple():
     check_button = ttk.Checkbutton(root_scidpurple, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_scidpurple)
+    combo_box = ttk.Combobox(root_scidpurple, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -821,7 +856,7 @@ def scidsand():
     check_button = ttk.Checkbutton(root_scidsand, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_scidsand)
+    combo_box = ttk.Combobox(root_scidsand, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -856,7 +891,7 @@ def smog():
     check_button = ttk.Checkbutton(root_smog, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_smog)
+    combo_box = ttk.Combobox(root_smog, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -891,7 +926,7 @@ def ubuntu():
     check_button = ttk.Checkbutton(root_ubuntu, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_ubuntu)
+    combo_box = ttk.Combobox(root_ubuntu, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -926,7 +961,7 @@ def vista():
     check_button = ttk.Checkbutton(root_vista, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_vista)
+    combo_box = ttk.Combobox(root_vista, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -961,7 +996,7 @@ def winnative():
     check_button = ttk.Checkbutton(root_winnative, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_winnative)
+    combo_box = ttk.Combobox(root_winnative, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -996,7 +1031,7 @@ def winxpblue():
     check_button = ttk.Checkbutton(root_winxpblue, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_winxpblue)
+    combo_box = ttk.Combobox(root_winxpblue, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -1031,7 +1066,7 @@ def xpnative():
     check_button = ttk.Checkbutton(root_xpnative, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_xpnative)
+    combo_box = ttk.Combobox(root_xpnative, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -1066,7 +1101,7 @@ def yaru():
     check_button = ttk.Checkbutton(root_yaru, text='Check Button')
     check_button.grid(row=1, column=0, padx=10, pady=10)
 
-    combo_box = ttk.Combobox(root_yaru)
+    combo_box = ttk.Combobox(root_yaru, state='readonly')
     combo_box['values'] = [1, 2, 3, 4, 5]
     combo_box.set("Combo Box")
     combo_box.grid(row=2, column=0, padx=10, pady=10)
@@ -1093,6 +1128,7 @@ root.title('Estilos ttktheme')
 
 style = ThemedStyle(root)
 style.set_theme('equilux')
+
 
 bt_alt = ttk.Button(root, text='alt', command=alt)
 bt_alt.grid(row=0, column=0)
@@ -1186,6 +1222,9 @@ bt_xpnative.grid(row=9, column=2)
 
 bt_yaru = ttk.Button(root, text='yaru', command=yaru)
 bt_yaru.grid(row=10, column=1)
+
+bt_adapta = ttk.Button(root, text='adapta', command=adapta)
+bt_adapta.grid(row=10, column=2)
 
 
 root.mainloop()
